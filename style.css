@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Sacramento&display=swap');
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+	background-color: #282120;
+	font-family: poppins, sans-serif;
+	color: #F8EFE4;
+}
+
+.form-control{
+	width: 15rem;
+}
+
+.btn {
+  background: #FAD02C;
+  border-radius: 999px;
+  box-shadow: #FAD02C 0 10px 20px -14px;
+  box-sizing: border-box;
+  color: #282120;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.btn:hover {
+	background:  #fff0b3;
+	color:#282120 ;
+}
+
+.btn:focus {
+	background: #FAD02C;
+	border-color: #FAD02C!important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
